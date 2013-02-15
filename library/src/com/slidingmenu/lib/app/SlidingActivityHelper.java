@@ -99,7 +99,11 @@ public class SlidingActivityHelper {
 		mViewBehind = v;
 		mSlidingMenu.setViewBehind(mViewBehind);
 	}
-
+	
+    public void setStatic(boolean staticMode) {
+        mSlidingMenu.setStatic(staticMode);
+    }
+	
 	public SlidingMenu getSlidingMenu() {
 		return mSlidingMenu;
 	}
